@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <style>
+      .clockdate-wrapper {
+        background-color: #333;
+        padding: 25px;
+        max-width: 350px;
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        margin: 250px auto;
+      }
+      #clock {
+        background-color: #333;
+        font-family: sans-serif;
+        font-size: 60px;
+        text-shadow: 0px 0px 1px #fff;
+        color: #fff;
+      }
+      #clock span {
+        color: #888;
+        text-shadow: 0px 0px 1px #333;
+        font-size: 50px;
+        position: relative;
+        top: -5px;
+        left: 10px;
+      }
+      #date {
+        letter-spacing: 3px;
+        font-size: 14px;
+        font-family: arial, sans-serif;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="clockdate">
+      <div class="clockdate-wrapper">
+        <div id="clock"></div>
+        <div id="date"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
